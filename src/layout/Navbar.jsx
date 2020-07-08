@@ -36,13 +36,13 @@ export default function NavbarLayout(props) {
             aria-label="menu"
           ></IconButton>
           {/* <Typography variant="h6">NewsPaper</Typography> */}
-          <Link to="/" className="nav-link">
+          <Link to="/react-blog" className="nav-link">
             Home
           </Link>
-          <Link to="/articles" className="nav-link">
+          <Link to="/react-blog/articles" className="nav-link">
             Articles
           </Link>
-          <Link to="/contact" className="nav-link">
+          <Link to="/react-blog/contact" className="nav-link">
             contact
           </Link>
         </Toolbar>

@@ -56,7 +56,7 @@ class ArticleItemPage extends Component {
                 <h5>Recent Articles</h5>
                 {this.state.articles.map((article) => (
                   <Link
-                    to={"/article/" + article.id}
+                    to={"/react-blog/article/" + article.id}
                     key={article.id}
                     onClick={() => this.getArticleItem(article.id)}
                   >

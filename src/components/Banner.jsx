@@ -18,11 +18,11 @@ class Banner extends Component {
           <div className="main-section_content">
             <h1>{this.props.title}</h1>
             <Breadcrumbs separator="›" aria-label="breadcrumb">
-              <Link to="/">Home</Link>
-              <Link color="inherit" to="/articles">
+              <Link to="/react-blog">Home</Link>
+              <Link color="inherit" to="/react-blog/articles">
                 Articles
               </Link>
-              <Typography>Breadcrumb</Typography>
+              {/* <Typography>Breadcrumb</Typography> */}
             </Breadcrumbs>
           </div>
         </Container>

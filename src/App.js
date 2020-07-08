@@ -22,10 +22,10 @@ class App extends Component {
         <Router>
           <div className="App" id="app">
             <NavbarLayout />
-            <Route exact path="/" component={Home} />
-            <Route path="/article/:id" component={ArticleItemPage} />
-            <Route path="/articles" component={Articles} />
-            <Route path="/contact" component={Contact} />
+            <Route exact path="/react-blog" component={Home} />
+            <Route path="/react-blog/article/:id" component={ArticleItemPage} />
+            <Route path="/react-blog/articles" component={Articles} />
+            <Route path="/react-blog/contact" component={Contact} />
           </div>
         </Router>
       </ThemeProvider>

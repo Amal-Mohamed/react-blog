@@ -27,7 +27,7 @@ class ArticleSection extends Component {
           <Grid container spacing={3}>
             {this.state.articles.map((article) => (
               <Grid item xs={12} md={this.props.md}>
-                <Link to={"/article/" + article.id} key={article.id}>
+                <Link to={"/react-blog/article/" + article.id} key={article.id}>
                   <AricleItem
                     className={this.props.className}
                     article={article}
