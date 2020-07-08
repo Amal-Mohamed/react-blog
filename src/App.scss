@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+$theme-colors: (
+  "info": tomato,
+  "danger": teal,
+);
+@import "~bootstrap/scss/bootstrap";
+body,
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-size: 20px;
+  background-color: #f9f9f9;
+  font-family: "Poppins", sans-serif;
+}
+* {
+  font-family: "Poppins", sans-serif;
+}
+@import "./assets/scss/custom.scss";
+@import "./assets/scss/main-section.scss";
